@@ -5,3 +5,35 @@ html {
 *, ::before, ::after {
 	box-sizing: inherit;
 }
+header {
+	background-color: #d05c2e;
+	color: white;
+	text-align: center;
+	margin: 0em;
+	padding-top: 1em;
+}
+
+ol li{
+	border: 2px solid #a93f35;
+	padding: 0.6em 1em;
+	display: block;
+	float: left;
+	width: 33.33333333%;
+}
+
+ol a {
+	text-decoration: none;
+	color: white;
+
+}
+
+ol {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+}
+
+ol li:hover {
+	background-color: #a93f35;
+}
