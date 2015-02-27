@@ -5,6 +5,12 @@ html {
 *, ::before, ::after {
 	box-sizing: inherit;
 }
+
+body {
+	font-family: 'Merriweather', serif;
+	font-size: ;
+}
+
 header {
 	background-color: #d05c2e;
 	color: white;
@@ -32,6 +38,15 @@ ol {
 	text-align: center;
 	padding: 0;
 	overflow: hidden;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+div {
+	background-color: #dc8252;
+	color: white;
 }
 
 ol li:hover {
