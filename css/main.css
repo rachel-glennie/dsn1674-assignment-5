@@ -24,13 +24,13 @@ header {
 }
 
 .left-grain {
-	width: 16%;
+	width: 60px;
 	float: left;
 	padding-top: 1em;
 }
 
 .right-grain {
-	width: 16%;
+	width: 60px;
 	float: right;
 	padding-top: 1em;
 }
@@ -79,22 +79,11 @@ figcaption {
 
 .image-quinoa {
 	clear: right;
-	margin-top: 1em;
-}
-
-.image-corn {
-	width: 20%;
-	margin: 0em;
+	margin: 1em 0em;
 }
 
 .famous {
-	padding-top: 0.75em
-}
-
-div {
-	background-color: #dc8252;
-	color: white;
-	clear: left;
+	padding-top: 0.75em;
 }
 
 dl img {
@@ -105,10 +94,12 @@ dl img {
 	margin-right: 0.5em;
 }
 
+
 dd {
 	font-style: italic;
 	margin: 0em;
 	float: left;
+	width: 60%;
 }
 
 dt {
@@ -116,6 +107,7 @@ dt {
 	font-weight: bold;
 	float: left;
 	clear: left;
+	width: 60%;
 }
 
 
@@ -126,4 +118,28 @@ footer {
 	font-size: 0.75em;
 	padding: 0.5em;
 	clear: both;
+}
+
+
+div {
+	background-color: #dc8252;
+	color: white;
+}
+
+.image-corn {
+	width: 100%;
+	margin: 0em;
+	padding: 0em;
+}
+
+.image-rice {
+	margin: 0em;
+	width: 50%;
+	float: left;
+}
+
+.image-oats {
+	margin: 0em;
+	width: 50%;
+	float: right;
 }
