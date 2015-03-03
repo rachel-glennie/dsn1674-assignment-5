@@ -81,6 +81,12 @@ div {
 	color: white;
 }
 
+dl img {
+	width: 30%;
+}
+
+
+
 footer {
 	color: #e69861;
 	background-color: #d05c2e;
