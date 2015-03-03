@@ -11,6 +11,10 @@ body {
 	font-size: 1em;
 }
 
+h2 {
+	text-align: center;
+}
+
 header {
 	background-color: #d05c2e;
 	color: white;
@@ -72,7 +76,6 @@ figcaption {
 }
 
 .famous {
-	text-align: center;
 	padding-top: 0.75em
 }
 
@@ -83,8 +86,24 @@ div {
 
 dl img {
 	width: 30%;
+	float: left;
+	clear: left;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
 }
 
+dd {
+	font-style: italic;
+	margin: 0em;
+	float: left;
+}
+
+dt {
+	font-style: italic;
+	font-weight: bold;
+	float: left;
+	clear: left;
+}
 
 
 footer {
@@ -93,4 +112,5 @@ footer {
 	text-align: center;
 	font-size: 0.75em;
 	padding: 0.5em;
+	clear: both;
 }
