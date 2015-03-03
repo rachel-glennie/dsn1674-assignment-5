@@ -46,6 +46,7 @@ ol li:hover {
 
 figcaption {
 	font-style: italic;
+	text-align: center;
 }
 
 .image-grain {
@@ -66,7 +67,7 @@ figcaption {
 }
 
 .image-corn {
-	width: 100%;
+	width: 20%;
 	margin: 0em;
 }
 
@@ -80,3 +81,10 @@ div {
 	color: white;
 }
 
+footer {
+	color: #e69861;
+	background-color: #d05c2e;
+	text-align: center;
+	font-size: 0.75em;
+	padding: 0.5em;
+}
