@@ -127,19 +127,19 @@ div {
 	color: white;
 }
 
-.image-corn {
+.figure-corn {
 	width: 100%;
 	margin: 0em;
 	padding: 0em;
 }
 
-.image-rice {
+.figure-rice {
 	margin: 0em;
 	width: 50%;
 	float: left;
 }
 
-.image-oats {
+.figure-oats {
 	margin: 0em;
 	width: 50%;
 	float: right;
